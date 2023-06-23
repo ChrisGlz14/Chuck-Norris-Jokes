@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f25330;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Button */
+
+.generator-jokes button {
+    background-color: #242424;
+    color: #f25330;
+    padding: 20px;
+    display: flex;  
+    margin: 0 auto;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+}
+
+.generator-jokes button:hover {
+    transition: all ease-in .2s;
+    transform: scale(1.1);
+    background-color: #3b3b3b;
+}
+
+.container-jokes {
+    display: flex;
+    background-color: #242424;
+    margin-top: 50px;
+}
+
+.container-jokes .joke{
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    align-content: center;
+    color: #999977;
+}
